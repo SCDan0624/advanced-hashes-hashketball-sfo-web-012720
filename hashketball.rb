@@ -289,3 +289,6 @@ longest_name = ""
 
 return longest_name
 end
+
+def longest_name_steals_a_ton?
+end
