@@ -241,7 +241,7 @@ def most_points_scored
         highest_scorer = player[:player_name]
       end
     end
-  end
+end
 
 # Not the most dry code 
 def winning_team
