@@ -268,4 +268,3 @@ def winning_team
     end
 
 end
-
