@@ -244,29 +244,27 @@ def most_points_scored
 end
 
 # Not the most dry code 
-
-
-def winning_team
-   hornets_scoring = 0 
-   nets_scoring = 0
+# def winning_team
+#   hornets_scoring = 0 
+#   nets_scoring = 0
   
-  game_hash.each do |h_or_a, team_info|
-    if team_info[:team_name] == "Brooklyn Nets"
-      team_info[:players].each do |player|
-        nets_scoring += player[:points]
-      end
-    elsif team_info[:team_name] == "Charlotte Hornets"
-      team_info[:players].each do |player|
-       hornets_scoring += player[:points]
-      end
-    end
+#   game_hash.each do |h_or_a, team_info|
+#     if team_info[:team_name] == "Brooklyn Nets"
+#       team_info[:players].each do |player|
+#         nets_scoring += player[:points]
+#       end
+#     elsif team_info[:team_name] == "Charlotte Hornets"
+#       team_info[:players].each do |player|
+#       hornets_scoring += player[:points]
+#       end
+#     end
   
-  end
+#   end
 
-    if hornets_scoring > nets_scoring
-      return "Charlotte Hornets"
-    else  
-      return "Brooklyn Nets"
-    end
+#     if hornets_scoring > nets_scoring
+#       return "Charlotte Hornets"
+#     else  
+#       return "Brooklyn Nets"
+#     end
 
-end
+# end
